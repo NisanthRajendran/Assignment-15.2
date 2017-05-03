@@ -25,5 +25,19 @@ Explain the working and the differences between Maven, Gradle and SBT in detail.
          This is useful for continuous integration of servers.
         *Gradle has two distinct phases: evaluation and execution. Basically, 
          during evaluation Gradle will look for and evaluate build scripts in the directories it is supposed to look.
-        * 
+        *The advanced features of gradle are parallel unit test execution,Dependency building,incremental build support,
+         gradle demon etc.,
+         
+SBT:
+        *sbt is a general purpose build tool written in Scala.
+        *The features are Default project layouts,Built-in tasks,Plugin architecture,Declarative Dependency management,
+         Code over Configuration: A DSL for build tool.
+        *It isn't just a build tool, it also provides an interactive environment to work in.
+        *You can use sbt in two modes : command-line mode and interactive mode.
+        *In the command-line mode, you run sbt task from your machine terminal. Once the task successfully finishes then sbt exits.
+        *SBT build configurations are less verbose than the equivalent POM files, and they are written in Scala code, 
+         so you can express whatever you need to get build your project, for example triggering code generation. 
+        *SBT console mode keeps scala resident, which really improves compile times on subsequent runs. 
+         This is important for scala, which is quite slow as compared to java.
+         
  
